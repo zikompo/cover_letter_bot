@@ -94,6 +94,8 @@ public class CoverLetterBot {
     // Method to generate the cover letter using regex
     public static String generateCoverLetter(Path templatePath, Map<String, String> placeholders) {
         try {
+
+
             // Read the template file
             String template = Files.readString(templatePath);
 
