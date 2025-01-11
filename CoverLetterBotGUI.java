@@ -49,7 +49,7 @@ public class CoverLetterBotGUI extends Application {
         // Buttons
         Button generateButton = new Button("Generate Cover Letter");
         Button downloadButton = new Button("Download Cover Letter");
-
+        downloadButton.setDisable(true);
         // Output area
         TextArea outputArea = new TextArea();
         outputArea.setPromptText("Your generated cover letter will appear here...");
@@ -98,6 +98,7 @@ public class CoverLetterBotGUI extends Application {
 
             if (!coverLetter.isEmpty() && coverLetter != "NULL_SOMEWHERE") {
                 outputArea.setText(coverLetter);
+                downloadButton.setDisable(false);
             }
             else if (coverLetter == "NULL_SOMEWHERE"){
                 outputArea.setText("One of the parameters is null");

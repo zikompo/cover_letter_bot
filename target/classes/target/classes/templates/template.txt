@@ -1,0 +1,8 @@
+Dear {manager_name},
+
+I am excited to apply for the {job_title} position at {company_name}. With my background in {skills}, I am eager to contribute to your team and align with {company_values}.
+
+Thank you for considering my application. I look forward to discussing how I can contribute to {company_name}.
+
+Sincerely,
+{name}
